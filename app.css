@@ -34,3 +34,53 @@ body {
   background-position: center bottom;
   height: 550px;
 }
+.section1 {
+  border: 1px blue solid;
+  padding: 70px 0;
+}
+.section1__container {
+  padding: 0 50px;
+  border: 1px green solid;
+  display: flex;
+  justify-content: center;
+}
+.section1__box--top-wrapper {
+}
+.section1__box--top {
+  padding: 20px;
+}
+.section1__box--top h2 {
+  margin-top: 0;
+}
+.section1__box--top img {
+  width: 100%;
+}
+.section1__box--top-msg {
+  background: #f2f2f2;
+  padding: 20px;
+}
+.section1__box--top-msg a {
+  margin: 0 auto;
+}
+.section1__box--lower {
+  border: 1px orange solid;
+}
+.btn {
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.btn--red {
+  background: #852406;
+}
+.btn--blue {
+  background: #1686c1;
+}
+.btn--green {
+  background: #178a27;
+}
