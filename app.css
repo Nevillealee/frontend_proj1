@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.navi {
+  background: #383e4c;
+  padding: 30px;
+  overflow: hidden;
+}
+.navi__list {
+    list-style: none;
+    margin: 0 auto;
+    padding:0;
+    max-width: 60%;
+}
+.navi__item {
+  font-size: 20px;
+  float: left;
+  padding: 10px 15px;
+  margin: 0 10px;
+  border: 1px solid grey;
+}
+.navi__a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.navi__item:hover {
+  background-color: #555c6d;
+}
+.main-header {
+  background-image: url("img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 550px;
+}
